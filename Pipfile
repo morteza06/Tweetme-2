@@ -1,0 +1,11 @@
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+django = "==4.0.4"
+
+[requires]
+python_version="3.9"
+
+[dev-packages]
+pylint = "*"
