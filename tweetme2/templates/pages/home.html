@@ -10,19 +10,24 @@
         <h1>Welcome to tweetme 2</h1>
     </div>    
 </div>
+
+<div class="row mb-3">
+    <div class="col-md-4 mx-auto col-10">
+        <form action="/create-tweet" class="form" method="POST">
+            {% csrf_token %}
+            <input type="hidden" value="/" name="next">
+            <textarea name="content" class="form-control"  placeholder="Your tweet..."></textarea>
+            <button class="btn btn-primary" type="submit">Tweet</button>
+        </form>
+    </div>
+</div>
+
+
 <div class="row" id="tweets">
     loading...
 </div>
 <script>
     const tweetElement = document.getElementById("tweets") // get an html element
-
-    //tweetElement.innerHTML = 'Loading...' 
-    //var el1 = "<h1>Hi there 1</h1>"
-    //var el2 = "<h1>Hi there 2</h1>"
-    //var el3 = "<h1>Hi there 3</h1>"
-    //tweetElement.innerHTML = el1 + el2 + el3
-    //console.log(listItems)
-
     const xhr = new XMLHttpRequest()
     const method = 'GET' // "POST"
     const url = "/tweets"
