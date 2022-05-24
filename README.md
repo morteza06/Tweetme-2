@@ -7,35 +7,37 @@ Build a twitter-like app in Django, Bootstrap, Javascript, &amp; React.js. Step-
 ### Lesson Code
 _Lessons 1-5: no significant code added_
 
-[6 - Updated VS Code Config] 
+[ Initial Commit ](../../tree/20aafd76ef9048ce90911e8fcece5f691b82db3f/)
+
+[6 - Updated VS Code Config](../../tree/edb4592fb86d66bc8c96020cf437d9241a7057e8/)
 
 [7 - Our Roadmap] 
 
-[8 - The Tweets Model] 
+[8 - The Tweets Model](../../tree/6c55ca2c556a5ba9a9d9c03a8c6c0e406e972797/)
 
 [9 - Store Data from Django Model] 
 
-[10 - Intro to URL Routing and Dynamic Routing] 
+[10 - Intro to URL Routing and Dynamic Routing](../../tree/4bbc8b4aa1135e3f8795f24499ec23cfb0a3d3e7/)
 
-[11 - Handling Dynamic Routing] 
+[11 - Handling Dynamic Routing](../../tree/02156294a59be0b40d479c6626f99f26f172a21e/)
 
-[12 - Dynamic View into REST API Endpoint] 
+[12 - Dynamic View into REST API Endpoint](../../tree/aa77276df04e9c6f9345612009b24eff11132fff/)
 
-[13 - Our First Template] 
+[13 - Our First Template](../../tree/c2109e3e2f7088f3f423e417fb89696feaf134d9/)
 
-[14 - Bootstrap & Django Templates] 
+[14 - Bootstrap & Django Templates](../../tree/6d050c5ef793d82eb5a18fc9831ec06de9618edf/)
 
-[15 - Tweet List View] 
+[15 - Tweet List View](../../tree/e48859541bcdad57377406aac0dc9f08a7e0b4f1/)
 
 [16 - Dynamic Load Tweets via JavaScript] 
 
-[17 - Replace HTML Content with JavaScript] 
+[17 - Replace HTML Content with JavaScript](../../tree/13f4bbac9d9fb0b7acbe6b95cd95861e6c047308/)
 
-[18 - Tweets to HTML via JavaScript] 
+[18 - Tweets to HTML via JavaScript](../../tree/63a29932d9c28851078e2114346abcad92998be0/)
 
-[19 - Format Tweet Method] 
+[19 - Format Tweet Method](../../tree/9f295cfa407d1613ddcfb3508cb0059731eb7225/)
 
-[20 - Like Button Rendering] 
+[20 - Like Button Rendering](../../tree/545cd1c804554116264452e716b11f840e70c33c/)
 
 [21 - Rapid Implement of Bootstrap Theme] 
 
