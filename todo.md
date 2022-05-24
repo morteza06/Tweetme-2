@@ -4,6 +4,7 @@
         -> Image
     -> Delete
     -> Retweeting
+    -> Linking
 
 2. Users
     -> Register
