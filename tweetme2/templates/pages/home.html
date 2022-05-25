@@ -16,7 +16,7 @@
         <form action="/create-tweet" class="form" method="POST" id="tweet-create-form">
             {% csrf_token %}
             <input type="hidden" value="/" name="next">
-            <textarea name="content" class="form-control"  placeholder="Your tweet..."></textarea>
+            <textarea name="content" class="form-control mb-2"  placeholder="Your tweet..."></textarea>
             <button class="btn btn-primary" type="submit">Tweet</button>
         </form>
     </div>
@@ -36,9 +36,11 @@
         const method = myForm.getAttribute("method")
         const xhr = new XMLHttpRequest()
         xhr.open(method, url)
+        xhr.sendRequestHeader("HTTP_X_REQUESTED_WITH","XMLHttpRequest")
+        xhr.sendRequestHeader("X-Requested-With","XMLHttpRequest")
         xhr.onload = function(){
             const serverResponse = xhr.response
-            // console.log(serverResponse)
+            console.log(xhr.status, serverResponse)
             const tweetsEl = document.getElementById("tweets")
             loadTweets(tweetEl)
         }
@@ -85,7 +87,7 @@
     }
 
     function formatTweetElement(tweet){
-        var formattedTweet = "<div class='col-12 col-md-10 mx-auto border rounded py-3 mb-4 tweet' id='tweet-" + tweet.id 
+        var formattedTweet = "<div class='col-12 col-md-10 mx-auto border rounded py-3 mb-2 mt-2tweet' id='tweet-" + tweet.id 
             + "'><p>" + tweet.content + 
             "</p></div class='btn-group'>" + LikeBtn(tweet) +
             "</div></div>"

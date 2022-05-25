@@ -22,9 +22,11 @@ def tweet_create_view(request, *args, **kwargs):
         obj = form.save(commit=False)
         # do other form related logic
         obj.save()
+        if request.is_ajax():
+            return JsonResponse({}, status=201) # 201 == created items
         if next_url != None: 
-            """and is_safe_url(next_url, ALLOWED_HOSTS)"""
             return redirect(next_url)
+            """and is_safe_url(next_url, ALLOWED_HOSTS)"""
         form = TweetForm()
     return render(request, 'components/form.html', context={'form': form})
 
