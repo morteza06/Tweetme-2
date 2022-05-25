@@ -15,7 +15,7 @@
     <div class="col-md-4 mx-auto col-10">
         <form action="/create-tweet" class="form" method="POST" id="tweet-create-form">
             {% csrf_token %}
-            <div class="d-none alert alert-danger" id="tweet-create-form-error"></div>
+            <div class="d-none alert alert-danger alert-dismissible fade show" id="tweet-create-form-error"></div>
             <input type="hidden" value="/" name="next">
             <textarea required="required" name="content" class="form-control mb-2"  placeholder="Your tweet..."></textarea>
             <button class="btn btn-primary" type="submit">Tweet</button>
@@ -33,11 +33,11 @@
         var myErrorDiv = document.getElementById("tweet-create-form-error")
         if (display === true) {
             //show error
-            myErrorDiv.setAttribute("class", "d-block alert alert-danger ")
+            myErrorDiv.setAttribute("class", "d-block alert alert-danger alert-dismissible fade show")
             myErrorDiv.innerText = msg
         } else {
             // hide error
-            myErrorDiv.setAttribute("class", "d-none alert alert-danger")
+            myErrorDiv.setAttribute("class", "d-none alert alert-danger alert-dismissible fade show")
         }
     }
 

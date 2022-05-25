@@ -2,9 +2,10 @@
     -> Creating
         -> Text
         -> Image
-    -> Delete
-    -> Retweeting
-    -> Linking
+    -> User Permissions
+        -> Delete
+        -> Retweeting
+        -> Linking
 
 2. Users
     -> Register
