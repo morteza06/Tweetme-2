@@ -27,6 +27,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['127.0.0.1', '.cfe.sh']
 
+LOGIN_URL = "/login"
 
 # Application definition
 
