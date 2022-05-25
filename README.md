@@ -43,21 +43,21 @@ _Lessons 1-5: no significant code added_
 
 [22 - Tweet Create Form](../../1813acafb1746980eb73fe68b21ef1f37b4955b6/)
 
-[23 - Tweet Form by Hand] 
+[23 - Tweet Form by Hand](../../f79bc43aa68d72c99e167b949e852799862ad2b1/)
 
-[24 - Successful Form Redirect] 
+[24 - Successful Form Redirect] (../../f59a1b3184bf304f5179c7fa5bc2316e9408e302/)
 
 [25 - Safe URL Redirect] 
 
 [26 - Prevent Form Submit via JavaScript] 
 
-[27 - Sending Form Data via pure JavaScript] 
+[27 - Sending Form Data via pure JavaScript](../../ca12951259664ceb7c74b1405d7ea083e755c2c7/)
 
-[28 - Handling Ajax Requests] 
+[28 - Handling Ajax Requests](../../5efc85514cd5def3bc2e326480266ddceea4fe87/)
 
-[29 - Serialize Django Model Object] 
+[29 - Serialize Django Model Object](../../e914cb19658874d329a1717c4a798106c9cd5d67/)
 
-[30 - Append New Tweet & Reorder] 
+[30 - Append New Tweet & Reorder](../../af4b7ce96020b2b4672410aaad89b0a1468681ef/)
 
 [31 - Handling Form Errors] 
 
